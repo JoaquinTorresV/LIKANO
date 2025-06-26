@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -133,7 +134,7 @@ export default function Home() {
           <div className="bg-white rounded-2xl p-8 flex flex-col items-center text-center shadow-lg border-2 border-[#19C3AC] transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-[#0A2239]">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0A2239" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12 mb-4" style={{ color: '#19C3AC' }}><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m22 18-3-3-3 3"/><path d="M19 12v9"/></svg>
             <span className="text-4xl font-extrabold mb-2" style={{ color: '#0A2239' }}>340%</span>
-            <span className="text-gray-700 font-medium">Aumento de conversación</span>
+            <span className="text-gray-700 font-medium">Aumento de conversión</span>
           </div>
 
           {/* Stat 2 */}
