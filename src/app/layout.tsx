@@ -18,6 +18,23 @@ export const metadata: Metadata = {
   title: "Likano AI - Agencia de IA para Inmobiliarias",
   description:
     "Sistemas de automatización, chatbots, asistentes de llamada, CRM automatizado y más para el sector inmobiliario.",
+  icons: {
+    icon: "/logo.jpg",
+  },
+  openGraph: {
+    images: [
+      {
+        url: "/logo.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Likano AI Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/logo.jpg"],
+  },
 };
 
 export default function RootLayout({
