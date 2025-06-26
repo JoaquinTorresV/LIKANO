@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -8,11 +9,11 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <span className="sr-only">Likano AI</span>
-            <img src="/logo.jpg" alt="Logo Likano" className="h-8 w-8 rounded-full" />
+            <Image src="/logo.jpg" alt="Logo Likano" className="h-8 w-8 rounded-full" width={32} height={32} />
             <span className="font-extrabold text-xl" style={{ color: 'var(--color-primary)' }}>LIKANO</span>
-          </a>
+          </Link>
         </div>
         <div className="hidden lg:flex lg:gap-x-8">
           <a href="#servicios" className="text-base font-semibold leading-6 text-gray-900 hover:text-blue-700 transition" style={{ color: 'var(--color-primary)' }}>Servicios</a>
